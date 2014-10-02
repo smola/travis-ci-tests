@@ -6,6 +6,9 @@ jdk:
 cache:
   directories:
     - $HOME/.m2
+before_install:
+  - umask 0022
 script:
   - cat /etc/hosts
   - df -h
+  - umask
