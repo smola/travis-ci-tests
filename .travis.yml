@@ -15,3 +15,4 @@ script:
   - ulimit -u
   - ulimit -t
   - ulimit -a
+  - whoami
