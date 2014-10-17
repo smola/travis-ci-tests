@@ -12,3 +12,6 @@ script:
   - cat /etc/hosts
   - df -h
   - umask
+  - ulimit -u
+  - ulimit -t
+  - ulimit -a
