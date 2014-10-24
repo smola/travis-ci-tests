@@ -2,7 +2,7 @@
 
 cat /etc/lsb-release
 uname -a
-ulimut -a
+ulimit -a
 cat /etc/hosts
 whoami
 
