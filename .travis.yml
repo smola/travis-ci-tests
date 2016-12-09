@@ -16,3 +16,4 @@ script:
   - ulimit -t
   - ulimit -a
   - whoami
+  - git --version
